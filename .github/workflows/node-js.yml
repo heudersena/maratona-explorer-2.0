@@ -27,7 +27,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: Install and Build 🔧
-        run: npm cli
+        run: npm ci
         run: npm run build
         run: npm export
 

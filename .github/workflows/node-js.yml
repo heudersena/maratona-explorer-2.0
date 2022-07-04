@@ -27,12 +27,13 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: Install and Build 🔧
-        run: yarn && yarn build && yarn export
+        run: npm cli
+        run: npm run build
+        run: npm export
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages # The branch the action should deploy to.
-          FOLDER: out # The folder the action should deploy.
-          CLEAN: true # Automatically remove deleted files from the deploy branch
+          branch: gh-pages # the branch the action should deploy to.
+          folder: out # the folder the action should deploy.
+          clean: true # automatically remove deleted files from the deploy branch

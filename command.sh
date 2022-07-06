@@ -1,5 +1,6 @@
 # Docs => https://blog.betrybe.com/git/git-branch/
 # Docs => https://www.varonis.com/pt-br/blog/git-branching
+# Docs => https://github.com/heudersena/all_exemple/blob/main/Git_hub/Git-config.md
 
 # Entrar em uma brach existente
 exec git checkout nome-da-brach
@@ -20,3 +21,8 @@ exec git branch --list # local
 # Merge de branches em um repositório local
 exec git checkout main
 exec git merge copy
+
+
+# Configuração do GitHub na maquina
+exec git config --global core.editor code
+exec git config --global --edit

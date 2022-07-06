@@ -2,6 +2,9 @@
 # Docs => https://www.varonis.com/pt-br/blog/git-branching
 # Docs => https://github.com/heudersena/all_exemple/blob/main/Git_hub/Git-config.md
 
+# https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/pdftk_free-2.02-win-setup.exe
+# Separar PDF => pdftk tim.pdf  burst output page_%02d.pdf
+
 # Entrar em uma brach existente
 exec git checkout nome-da-brach
 
